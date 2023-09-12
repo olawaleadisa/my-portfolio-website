@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+</head>
+<body>
+    <!-- "header" refers to a section of a web page that typically appears at the top and contains important information, branding elements, navigation menus, and other content -->
+    <header>
+        <h1>My Portfolio</h1>
+
+        <!-- A navbar, short for "navigation bar," is a user interface element commonly used in websites and applications to provide a way for users to navigate and access different sections or pages of the website or app. -->
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to the home page of my portfolio website.</p> <br><br>
+        <!-- single line comment -->
+        <!-- image section -->
+       <img src="https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_1280.jpg" alt="dev image" width=640 height=640>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia adipisci quae deleniti officia voluptas accusantium consequatur dolorum laudantium laboriosam quaerat, iste debitis assumenda doloribus ut modi dolor! Quas quis obcaecati dignissimos aspernatur repellat voluptas a eligendi harum officia, necessitatibus minus. Numquam, laborum. Quod, nobis accusantium blanditiis provident, labore autem veniam aliquam enim vero doloribus praesentium ea error deserunt. Reprehenderit voluptatum doloribus odio cupiditate eos! Aliquam praesentium iusto quod, maiores facilis odio repellat velit est quas quis non id. Accusamus dolor deleniti minima laborum repellendus pariatur beatae asperiores, nesciunt laudantium sequi animi quo explicabo, voluptatibus maiores quam corporis velit voluptatum ullam..</p>
+
+        <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_640.jpg" alt="Developer image">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique consequatur cumque velit debitis porro unde, libero quam, qui quae eius nulla deserunt <br>autem odit, dolorem accusantium. Magnam laudantium explicabo exercitationem velit error <br>
+             totam odit doloribus, ea ipsum dolorum, consequatur inventore ipsam expedita consequuntur quia, nostrum voluptatum distinctio eum vitae molestias?</p>
+    </section>
+
+    <table style="border:1px solid black;">
+        <tr>
+            <td>Emil</td>
+            <td>Tobias</td>
+            <td>Linus</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>14</td>
+            <td>10</td>
+        </tr>
+    </table><br><br>
+    <!--
+    This is a multi-line comment in HTML.
+    You can add comments on multiple lines like this.
+    These comments won't be displayed in the browser.
+-->
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="age">Your age</label><br>
+        <input type="number" id="" name="age"><br><br>
+        <label for="pwd">Enter your Password</label><br>
+        <input type="password" id="pwd" name="password">
+    </form>
+
+    <form>
+        <p> What is your answer to the question? </p>
+        <input type="radio" name = "ans" value="yes"> Yes 
+        <input type="radio" name = "ans" value="no"> No 
+    </form>
+
+    <p>Click the play button to listen to the Audio</p>
+
+    <audio controls>
+        <source src="Flying - Track Tribe.mp3" type="audio/ogg">
+    </audio>
+
+    <div>
+        <section>
+            <ol>
+                <li>Milk</li>
+                <li>Tea</li>
+                <li>Bread</li>
+                <li>Egg</li>
+                <li>Yam</li>
+            </ol>
+        </section>
+    </div>
+
+    <form action="process_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+      
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="lexus">lexus</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form><br>
+      
+    <a href="#top">Back to top of page</a> <br><br>
+
+    <footer>
+        <p>&copy; 2023 Your Portfolio</p>
+    </footer>
+</body>
+</html>
